@@ -56,13 +56,14 @@ export default {
 					DEFAULT: 'hsl(var(--card))',
 					foreground: 'hsl(var(--card-foreground))'
 				},
-				// Couleurs spécifiques ABKR-STORE
+				// Couleurs spécifiques ABKR-STORE modernes
 				brand: {
-					black: '#000000',
-					white: '#FFFFFF', 
-					red: '#DC2626',
-					gold: '#F59E0B',
-					beige: '#F5F5DC'
+					black: '#0f0f0f',
+					white: '#ffffff', 
+					red: '#dc2626',
+					gray: '#6b7280',
+					'gray-light': '#f3f4f6',
+					'gray-dark': '#374151'
 				}
 			},
 			borderRadius: {
@@ -84,6 +85,10 @@ export default {
 					'100%': { transform: 'translateX(100%)' }
 				},
 				'fade-in': {
+					'0%': { opacity: '0', transform: 'translateY(30px)' },
+					'100%': { opacity: '1', transform: 'translateY(0)' }
+				},
+				'fade-in-up': {
 					'0%': { opacity: '0', transform: 'translateY(20px)' },
 					'100%': { opacity: '1', transform: 'translateY(0)' }
 				},
@@ -91,14 +96,20 @@ export default {
 					'0%': { transform: 'scale(1)' },
 					'50%': { transform: 'scale(1.05)' },
 					'100%': { transform: 'scale(1)' }
+				},
+				'float': {
+					'0%, 100%': { transform: 'translateY(0px)' },
+					'50%': { transform: 'translateY(-10px)' }
 				}
 			},
 			animation: {
 				'cart-bounce': 'cart-bounce 0.3s ease-in-out',
 				'slide-in-right': 'slide-in-right 0.3s ease-out',
 				'slide-out-right': 'slide-out-right 0.3s ease-out',
-				'fade-in': 'fade-in 0.6s ease-out',
-				'pulse-button': 'pulse-button 0.2s ease-in-out'
+				'fade-in': 'fade-in 0.8s ease-out',
+				'fade-in-up': 'fade-in-up 0.6s ease-out',
+				'pulse-button': 'pulse-button 0.2s ease-in-out',
+				'float': 'float 3s ease-in-out infinite'
 			}
 		}
 	},

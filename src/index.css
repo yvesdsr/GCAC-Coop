@@ -6,22 +6,22 @@
 @layer base {
   :root {
     --background: 255 255 255;
-    --foreground: 0 0 0;
+    --foreground: 20 20 20;
 
     --card: 255 255 255;
-    --card-foreground: 0 0 0;
+    --card-foreground: 20 20 20;
 
     --popover: 255 255 255;
-    --popover-foreground: 0 0 0;
+    --popover-foreground: 20 20 20;
 
-    --primary: 0 0 0;
+    --primary: 15 15 15;
     --primary-foreground: 255 255 255;
 
-    --secondary: 245 245 220;
-    --secondary-foreground: 0 0 0;
+    --secondary: 245 245 245;
+    --secondary-foreground: 20 20 20;
 
-    --muted: 245 245 245;
-    --muted-foreground: 115 115 115;
+    --muted: 248 248 248;
+    --muted-foreground: 120 120 120;
 
     --accent: 220 38 38;
     --accent-foreground: 255 255 255;
@@ -61,6 +61,10 @@
   }
 
   .glass-effect {
-    @apply bg-white/80 backdrop-blur-md border border-white/20;
+    @apply bg-white/90 backdrop-blur-lg border border-white/20 shadow-lg;
+  }
+
+  .gradient-bg {
+    background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
   }
 }
