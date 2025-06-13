@@ -93,11 +93,11 @@ const BecomeMember = () => {
     <div className="min-h-screen bg-background">
       <Navigation />
       
-      {/* Hero Section */}
+      {/* Hero Section avec image de cacao */}
       <section 
         className="pt-24 pb-16 bg-cover bg-center relative"
         style={{
-          backgroundImage: `linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.4)), url('https://images.unsplash.com/photo-1544717297-fa95b6ee9643?auto=format&fit=crop&w=1920&q=80')`
+          backgroundImage: `linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.4)), url('https://images.unsplash.com/photo-1578662996442-48f60103fc96?auto=format&fit=crop&w=1920&q=80')`
         }}
       >
         <div className="container mx-auto px-4 text-center text-white">
