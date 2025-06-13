@@ -3,7 +3,7 @@ import React, { useState } from 'react';
 import Navigation from '../components/Navigation';
 import Footer from '../components/Footer';
 import OrderModal from '../components/OrderModal';
-import { ShoppingCart, Massage, Coffee, Factory, MessageCircle } from 'lucide-react';
+import { ShoppingCart, Heart, Coffee, Factory, MessageCircle } from 'lucide-react';
 
 const Activities = () => {
   const [isModalOpen, setIsModalOpen] = useState(false);
@@ -25,7 +25,7 @@ const Activities = () => {
       details: "Chocolat noir, au lait, et blanc disponibles en tablettes, poudre et autres formats."
     },
     {
-      icon: <Massage className="w-12 h-12" />,
+      icon: <Heart className="w-12 h-12" />,
       title: "Massage au chocolat",
       description: "Soins bien-être au beurre de cacao pur, offrant détente et hydratation naturelle de la peau avec les bienfaits antioxydants du cacao.",
       image: "https://images.unsplash.com/photo-1544161515-4ab6ce6db874?auto=format&fit=crop&w=600&q=80",

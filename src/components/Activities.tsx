@@ -1,6 +1,6 @@
 
 import React, { useState } from 'react';
-import { ShoppingCart, Massage, Coffee, Factory, MessageCircle } from 'lucide-react';
+import { ShoppingCart, Heart, Coffee, Factory, MessageCircle } from 'lucide-react';
 import OrderModal from './OrderModal';
 
 const Activities = () => {
@@ -21,7 +21,7 @@ const Activities = () => {
       image: "https://images.unsplash.com/photo-1511381939415-e44015466834?auto=format&fit=crop&w=400&q=80"
     },
     {
-      icon: <Massage className="w-12 h-12" />,
+      icon: <Heart className="w-12 h-12" />,
       title: "Massage au chocolat",
       description: "Soins bien-être au beurre de cacao",
       image: "https://images.unsplash.com/photo-1544161515-4ab6ce6db874?auto=format&fit=crop&w=400&q=80"
