@@ -20,7 +20,7 @@ export default {
 		},
 		extend: {
 			fontFamily: {
-				'poppins': ['Poppins', 'sans-serif'],
+				'sans': ['Inter', 'system-ui', '-apple-system', 'sans-serif'],
 			},
 			colors: {
 				border: 'hsl(var(--border))',
@@ -56,14 +56,18 @@ export default {
 					DEFAULT: 'hsl(var(--card))',
 					foreground: 'hsl(var(--card-foreground))'
 				},
-				// Couleurs spécifiques ABKR-STORE modernes
-				brand: {
-					black: '#0f0f0f',
-					white: '#ffffff', 
-					red: '#dc2626',
-					gray: '#6b7280',
-					'gray-light': '#f3f4f6',
-					'gray-dark': '#374151'
+				// Couleurs spécifiques GCAC COOP-CA
+				green: {
+					50: '#f0fdf4',
+					100: '#dcfce7',
+					200: '#bbf7d0',
+					300: '#86efac',
+					400: '#4ade80',
+					500: '#22c55e',
+					600: '#16a34a',
+					700: '#15803d',
+					800: '#166534',
+					900: '#14532d',
 				}
 			},
 			borderRadius: {
@@ -72,18 +76,6 @@ export default {
 				sm: 'calc(var(--radius) - 4px)'
 			},
 			keyframes: {
-				'cart-bounce': {
-					'0%, 100%': { transform: 'scale(1)' },
-					'50%': { transform: 'scale(1.1)' }
-				},
-				'slide-in-right': {
-					'0%': { transform: 'translateX(100%)' },
-					'100%': { transform: 'translateX(0)' }
-				},
-				'slide-out-right': {
-					'0%': { transform: 'translateX(0)' },
-					'100%': { transform: 'translateX(100%)' }
-				},
 				'fade-in': {
 					'0%': { opacity: '0', transform: 'translateY(30px)' },
 					'100%': { opacity: '1', transform: 'translateY(0)' }
@@ -92,24 +84,20 @@ export default {
 					'0%': { opacity: '0', transform: 'translateY(20px)' },
 					'100%': { opacity: '1', transform: 'translateY(0)' }
 				},
-				'pulse-button': {
-					'0%': { transform: 'scale(1)' },
-					'50%': { transform: 'scale(1.05)' },
-					'100%': { transform: 'scale(1)' }
+				'slide-in-right': {
+					'0%': { transform: 'translateX(100%)' },
+					'100%': { transform: 'translateX(0)' }
 				},
-				'float': {
-					'0%, 100%': { transform: 'translateY(0px)' },
-					'50%': { transform: 'translateY(-10px)' }
+				'scale-in': {
+					'0%': { transform: 'scale(0.95)', opacity: '0' },
+					'100%': { transform: 'scale(1)', opacity: '1' }
 				}
 			},
 			animation: {
-				'cart-bounce': 'cart-bounce 0.3s ease-in-out',
-				'slide-in-right': 'slide-in-right 0.3s ease-out',
-				'slide-out-right': 'slide-out-right 0.3s ease-out',
 				'fade-in': 'fade-in 0.8s ease-out',
 				'fade-in-up': 'fade-in-up 0.6s ease-out',
-				'pulse-button': 'pulse-button 0.2s ease-in-out',
-				'float': 'float 3s ease-in-out infinite'
+				'slide-in-right': 'slide-in-right 0.3s ease-out',
+				'scale-in': 'scale-in 0.2s ease-out'
 			}
 		}
 	},
