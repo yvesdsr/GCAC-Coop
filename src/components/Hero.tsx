@@ -13,6 +13,9 @@ const Hero = () => {
         backgroundAttachment: 'fixed'
       }}
     >
+      {/* Ajout d'une superposition pour améliorer la lisibilité */}
+      <div className="absolute inset-0 bg-gradient-to-b from-black/50 via-black/40 to-black/60"></div>
+      
       <div className="container mx-auto px-4 text-center text-white relative z-10">
         <div className="max-w-4xl mx-auto animate-fade-in">
           <h1 className="text-3xl md:text-5xl lg:text-6xl font-bold leading-tight mb-6">
