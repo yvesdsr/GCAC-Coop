@@ -1,7 +1,13 @@
-
 import React, { useState } from 'react';
 import { X, Minus, Plus } from 'lucide-react';
-import { CartItem } from './Store';
+
+export interface CartItem {
+  id: number;
+  name: string;
+  price: number;
+  image: string;
+  quantity: number;
+}
 
 interface CartProps {
   isOpen: boolean;
