@@ -42,18 +42,14 @@ const About = () => {
     { 
       year: '2016', 
       event: 'Création de la coopérative GCAC COOP-CA',
-      description: 'Fondation officielle de notre société coopérative avec les premiers membres agriculteurs.'
+      description: ' les producteurs créent la Coopérative Agricole GLOBAL CROP AGRO-CONSEIL en abrégé CA GCAC avec siège social à YEILEU département de ZOUAN-HOUNIEN'
     },
     { 
       year: '2017', 
       event: 'Formation des premiers membres',
       description: 'Lancement des programmes de formation en agriculture durable et techniques modernes.'
     },
-    { 
-      year: '2018', 
-      event: 'Première certification bio',
-      description: 'Obtention de la certification biologique pour nos productions de cacao.'
-    },
+    
     { 
       year: '2019', 
       event: 'Lancement de la transformation locale',
@@ -67,7 +63,7 @@ const About = () => {
     { 
       year: '2021', 
       event: 'Reconnaissance nationale',
-      description: 'Reconnaissance officielle comme coopérative modèle au niveau national.'
+      description: 'Conformément aux nouvelles dispositions de l’acte uniforme OHADA (Organisation pour l’harmonisation en Afrique des droits des affaires), la CA GCAC devient « GCAC COOP-CA»'
     }
   ];
 
@@ -79,7 +75,7 @@ const About = () => {
       <section 
         className="pt-24 pb-16 bg-cover bg-center relative"
         style={{
-          backgroundImage: `linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.4)), url('https://images.unsplash.com/photo-1578662996442-48f60103fc96?auto=format&fit=crop&w=1920&q=80')`
+          backgroundImage: ` url('grandplan.jpeg')`
         }}
       >
         <div className="container mx-auto px-4 text-center text-white">
@@ -96,8 +92,31 @@ const About = () => {
           <div className="text-center mb-16">
             <h2 className="text-4xl md:text-5xl font-bold text-green-800 mb-4">Notre Mission</h2>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-              Nous œuvrons pour un développement agricole durable, équitable et prospère 
-              au service de nos communautés et de l'environnement.
+              Mission :
+La GCAC-COOP-CA a pour mission d’accompagner et de renforcer les capacités des producteurs de cacao, café, hévéa, anacarde et palmier à huile en collaboration avec tous les acteurs de la chaine d’approvisionnement, cela en mettant en place des pratiques agricoles durables, innovantes et équitables. Ainsi nous nous engageons à : <br />
+<ul>
+<br /><br />
+<li>
+  Promouvoir l’agriculture durable et la préservation de l’environnement en pratiquant  l’agro écologie, la reforestation et une utilisation responsable des ressources naturelles.
+</li>
+<br />
+
+<li>
+  l’innovation et la modernisation agricole par la formation, la recherche appliquée et l’adoption de technologies aux besoins des coopérateurs.
+</li>
+<br />
+
+<li>
+  Une gestion basée sur la gouvernance transparente, démocratique et inclusive en PRESIDENT la participation active des membres aux décisions et en matière de redevabilité.
+</li>
+<br />
+
+<li>
+  œuvrer pour l’équité et la justice sociale» prônant les droits des producteurs,  lutter contre les inégalités et en promouvant l’autonomisation des femmes et des jeunes dans le secteur agricole.
+</li>
+</ul>
+<br /> <br />
+Par cette mission, la GCAC-COOP-CA aspire à la connaissance de la famille des communautés et actions communautaires, centrée sur l’humain, de l’environnement de son écosystème, tout contribuant au développement socio-économique des communautés rurales.
             </p>
           </div>
 

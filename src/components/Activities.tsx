@@ -12,37 +12,37 @@ const Activities = () => {
       icon: <Factory className="w-12 h-12" />,
       title: "Transformation locale",
       description: "Transformation artisanale de nos produits agricoles",
-      image: "https://images.unsplash.com/photo-1587049352846-4a222e784d38?auto=format&fit=crop&w=400&q=80"
+      image: "transformateur-local.jpeg"
     },
     {
       icon: <ShoppingCart className="w-12 h-12" />,
       title: "Vente de chocolat",
       description: "Chocolat artisanal de qualité premium",
-      image: "https://images.unsplash.com/photo-1511381939415-e44015466834?auto=format&fit=crop&w=400&q=80"
+      image: "Vente-de-chocolat.png"
     },
     {
       icon: <Heart className="w-12 h-12" />,
       title: "Massage au chocolat",
       description: "Soins bien-être au beurre de cacao",
-      image: "https://images.unsplash.com/photo-1544161515-4ab6ce6db874?auto=format&fit=crop&w=400&q=80"
+      image: "massage-au-chocolat.webp"
     },
     {
       icon: <Coffee className="w-12 h-12" />,
       title: "Fèves de cacao",
       description: "Fèves de cacao bio de première qualité",
-      image: "https://images.unsplash.com/photo-1578662996442-48f60103fc96?auto=format&fit=crop&w=400&q=80"
+      image: "feve-de-cacao.avif"
     },
     {
       icon: <Coffee className="w-12 h-12" />,
       title: "Poudre de cacao",
       description: "Poudre de cacao pure et naturelle",
-      image: "https://images.unsplash.com/photo-1571115764595-644a1f56a55c?auto=format&fit=crop&w=400&q=80"
+      image: "poudre-de-cacao.png"
     },
     {
       icon: <ShoppingCart className="w-12 h-12" />,
       title: "Beurre de cacao",
       description: "Beurre de cacao bio pour cosmétiques et cuisine",
-      image: "https://images.unsplash.com/photo-1584464491033-06628f3a6b7b?auto=format&fit=crop&w=400&q=80"
+      image: "beurre-de-cacao.webp"
     },
     {
       icon: <Factory className="w-12 h-12" />,

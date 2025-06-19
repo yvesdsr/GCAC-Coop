@@ -7,86 +7,42 @@ import { Phone, Mail, MapPin } from 'lucide-react';
 const Team = () => {
   const teamMembers = [
     {
-      name: "M. KOUASSI Kouadio Pierre",
-      role: "Président de la Coopérative",
+      name: "Mr KRA Magloire",
+      role: "Président du Conseil d'Administration",
       department: "Direction Générale",
       phone: "0707889797",
-      email: "president@gcac-coop.ci",
-      image: "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?auto=format&fit=crop&w=300&q=80",
+      email: "christ77maguy@gmail.com",
+      image: "P-c-a.jpg",
       bio: "Leader expérimenté avec plus de 15 ans d'expérience dans l'agriculture durable et la gestion coopérative."
     },
     {
-      name: "Mme TRAORE Aminata",
-      role: "Vice-Présidente",
-      department: "Coordination des activités",
-      phone: "0707889798",
-      email: "vice-president@gcac-coop.ci",
-      image: "https://images.unsplash.com/photo-1494790108755-2616c11195c8?auto=format&fit=crop&w=300&q=80",
-      bio: "Spécialiste en développement rural et autonomisation des femmes dans l'agriculture."
+      name: "Mr Kra Kouame Ange Melvyn",
+      role: "Directeur Général",
+      department: "Direction générale",
+      phone: "0544282900",
+      email: "kraangemelvine18@gmail.com",
+      image: "Dr.jpg",
+      bio: " Manager dynamique engagé dans la valorisation des filières agricoles, il pilote les opérations de GCAC COOP-CA avec une vision centrée sur l'innovation, la performance et l’autonomisation des producteurs"
     },
     {
-      name: "M. DIABATE Seydou",
-      role: "Responsable Production",
-      department: "Gestion des cultures",
-      phone: "0707889799",
-      email: "production@gcac-coop.ci",
-      image: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=300&q=80",
-      bio: "Ingénieur agronome expert en culture de cacao biologique et techniques durables."
+      name: "Mr Blede Tahou Judicael",
+      role: "Sécrétaire Général",
+      department: "Direction générale",
+      phone: "0749296310",
+      email: "judicaelblede@gmail.com",
+      image: "SG.jpg",
+      bio: "Pilier administratif de la coopérative, il veille à la bonne coordination des instances, à la conformité des décisions et à la fluidité de la communication interne et externe de GCAC COOP-CA"
     },
     {
-      name: "Mme KONE Mariam",
-      role: "Responsable Transformation",
-      department: "Traitement et transformation",
-      phone: "0707889800",
+      name: "Mr Koffi Kan Mathurin",
+      role: "Trésorier",
+      department: "Finances",
+      phone: "0757978903",
       email: "transformation@gcac-coop.ci",
       image: "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?auto=format&fit=crop&w=300&q=80",
-      bio: "Experte en transformation alimentaire avec une spécialisation dans les produits à base de cacao."
+      bio: " Garant de la transparence financière, il supervise la gestion des ressources de GCAC COOP-CA avec rigueur, assurant la stabilité économique et le respect des obligations comptables."
     },
-    {
-      name: "M. OUATTARA Ibrahim",
-      role: "Responsable Commercial",
-      department: "Ventes et marketing",
-      phone: "0707889801",
-      email: "commercial@gcac-coop.ci",
-      image: "https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?auto=format&fit=crop&w=300&q=80",
-      bio: "Spécialiste en marketing agricole et développement de marchés pour produits biologiques."
-    },
-    {
-      name: "Mme YAO Akissi",
-      role: "Responsable Formation",
-      department: "Éducation et développement",
-      phone: "0707889802",
-      email: "formation@gcac-coop.ci",
-      image: "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?auto=format&fit=crop&w=300&q=80",
-      bio: "Formatrice expérimentée en techniques agricoles modernes et développement des compétences."
-    },
-    {
-      name: "M. BAMBA Lacina",
-      role: "Responsable Qualité",
-      department: "Contrôle et certification",
-      phone: "0707889803",
-      email: "qualite@gcac-coop.ci",
-      image: "https://images.unsplash.com/photo-1560250097-0b93528c311a?auto=format&fit=crop&w=300&q=80",
-      bio: "Expert en normes de qualité alimentaire et processus de certification biologique."
-    },
-    {
-      name: "Mme COULIBALY Fatoumata",
-      role: "Secrétaire Générale",
-      department: "Administration",
-      phone: "0707889804",
-      email: "secretariat@gcac-coop.ci",
-      image: "https://images.unsplash.com/photo-1580489944761-15a19d654956?auto=format&fit=crop&w=300&q=80",
-      bio: "Gestionnaire administrative expérimentée, responsable de la coordination des activités internes."
-    },
-    {
-      name: "M. SILUE Moussa",
-      role: "Trésorier",
-      department: "Gestion financière",
-      phone: "0707889805",
-      email: "tresorier@gcac-coop.ci",
-      image: "https://images.unsplash.com/photo-1556157382-97eda2d62296?auto=format&fit=crop&w=300&q=80",
-      bio: "Comptable certifié avec une expertise en gestion coopérative et finance rurale."
-    }
+   
   ];
 
   return (

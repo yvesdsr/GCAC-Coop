@@ -19,8 +19,8 @@ const Navigation = () => {
       <div className="container mx-auto px-4">
         <div className="flex justify-between items-center h-16">
           <div className="flex items-center space-x-4">
-            <div className="w-12 h-12 bg-green-600 rounded-lg flex items-center justify-center">
-              <span className="text-white font-bold text-lg">GC</span>
+            <div className="w-16 h-16 bg-white-600 rounded-lg flex items-center justify-center">
+              <img  src="Site-logo.jpg" alt="" />
             </div>
             <div className="hidden md:block">
               <span className="font-bold text-green-800 text-lg">GCAC COOP-CA</span>

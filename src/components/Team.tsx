@@ -5,46 +5,32 @@ import { Phone, Mail } from 'lucide-react';
 const Team = () => {
   const teamMembers = [
     {
-      name: "Président de la Coopérative",
+      name: "Président du Conseil d'administration (PCA)/ Mr KRA Magloire",
       role: "Direction Générale",
       phone: "0707889797",
-      email: "president@gcac-coop.ci",
-      image: "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?auto=format&fit=crop&w=300&q=80"
+      email: "christ77maguy@gmail.com",
+      image: "P-c-a.jpg"
     },
     {
-      name: "Responsable Production",
-      role: "Gestion des cultures",
-      phone: "0707889798",
-      email: "production@gcac-coop.ci",
-      image: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=300&q=80"
+      name: "Directeur Coopérative / Mr Kra Kouame Ange Melvyn",
+      role: "Direction générale",
+      phone: "0544282900",
+      email: "kraangemelvine18@gmail.com",
+      image: "Dr.jpg"
     },
     {
-      name: "Responsable Transformation",
-      role: "Traitement et transformation",
-      phone: "0707889799",
-      email: "transformation@gcac-coop.ci",
-      image: "https://images.unsplash.com/photo-1494790108755-2616c11195c8?auto=format&fit=crop&w=300&q=80"
+      name: "Sécrétaire Général / Mr Blede Tahou Judicael",
+      role: "Direction générale",
+      phone: "0749296310",
+      email: "judicaelblede@gmail.com",
+      image: "SG.jpg"
     },
     {
-      name: "Responsable Commercial",
-      role: "Ventes et marketing",
-      phone: "0707889800",
+      name: "Trésorier/ Mr Kofii Kan Mathurin",
+      role: "Finances",
+      phone: "0757978903",
       email: "commercial@gcac-coop.ci",
       image: "https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?auto=format&fit=crop&w=300&q=80"
-    },
-    {
-      name: "Responsable Formation",
-      role: "Éducation et développement",
-      phone: "0707889801",
-      email: "formation@gcac-coop.ci",
-      image: "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?auto=format&fit=crop&w=300&q=80"
-    },
-    {
-      name: "Responsable Qualité",
-      role: "Contrôle et certification",
-      phone: "0707889802",
-      email: "qualite@gcac-coop.ci",
-      image: "https://images.unsplash.com/photo-1560250097-0b93528c311a?auto=format&fit=crop&w=300&q=80"
     }
   ];
 

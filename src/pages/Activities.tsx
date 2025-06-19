@@ -14,42 +14,42 @@ const Activities = () => {
       icon: <Factory className="w-12 h-12" />,
       title: "Transformation locale",
       description: "Transformation artisanale de nos produits agricoles selon des méthodes traditionnelles et modernes pour préserver la qualité et les saveurs authentiques.",
-      image: "https://images.unsplash.com/photo-1587049352846-4a222e784d38?auto=format&fit=crop&w=600&q=80",
+      image: "Transformateur-local.jpeg",
       details: "Notre atelier de transformation utilise des équipements modernes tout en respectant les méthodes traditionnelles."
     },
     {
       icon: <ShoppingCart className="w-12 h-12" />,
       title: "Vente de chocolat",
       description: "Chocolat artisanal de qualité premium fabriqué à partir de nos fèves de cacao biologiques, avec différentes variétés et pourcentages de cacao.",
-      image: "https://images.unsplash.com/photo-1511381939415-e44015466834?auto=format&fit=crop&w=600&q=80",
+      image: "Vente-de-chocolat.png",
       details: "Chocolat noir, au lait, et blanc disponibles en tablettes, poudre et autres formats."
     },
     {
       icon: <Heart className="w-12 h-12" />,
       title: "Massage au chocolat",
       description: "Soins bien-être au beurre de cacao pur, offrant détente et hydratation naturelle de la peau avec les bienfaits antioxydants du cacao.",
-      image: "https://images.unsplash.com/photo-1544161515-4ab6ce6db874?auto=format&fit=crop&w=600&q=80",
+      image: "massage-au-chocolat.webp",
       details: "Séances de massage relaxant utilisant nos produits 100% naturels à base de cacao."
     },
     {
       icon: <Coffee className="w-12 h-12" />,
       title: "Fèves de cacao",
       description: "Fèves de cacao bio de première qualité, récoltées à maturité optimale et séchées selon nos standards de qualité pour préserver tous les arômes.",
-      image: "https://images.unsplash.com/photo-1578662996442-48f60103fc96?auto=format&fit=crop&w=600&q=80",
+      image: "feve-de-cacao.avif",
       details: "Fèves crues ou torréfiées, conditionnées en sacs de différentes tailles."
     },
     {
       icon: <Coffee className="w-12 h-12" />,
       title: "Poudre de cacao",
       description: "Poudre de cacao pure et naturelle, sans additifs, parfaite pour la pâtisserie, les boissons chaudes et la cuisine gastronomique.",
-      image: "https://images.unsplash.com/photo-1571115764595-644a1f56a55c?auto=format&fit=crop&w=600&q=80",
+      image: "poudre-de-cacao.png",
       details: "Poudre fine ou grossière selon vos besoins, conditionnée en sachets hermétiques."
     },
     {
       icon: <ShoppingCart className="w-12 h-12" />,
       title: "Beurre de cacao",
       description: "Beurre de cacao bio pur pour cosmétiques et cuisine, extrait à froid pour conserver toutes ses propriétés nutritives et hydratantes.",
-      image: "https://images.unsplash.com/photo-1584464491033-06628f3a6b7b?auto=format&fit=crop&w=600&q=80",
+      image: "beurre-de-cacao.webp",
       details: "Beurre de cacao solide ou liquide, conditionné en pots de différentes tailles."
     },
     {
@@ -63,7 +63,7 @@ const Activities = () => {
       icon: <Coffee className="w-12 h-12" />,
       title: "Produits cosmétiques",
       description: "Gamme de produits cosmétiques naturels à base de cacao : crèmes, baumes, savons et huiles pour tous types de peau.",
-      image: "https://images.unsplash.com/photo-1556228578-8c89e6adf883?auto=format&fit=crop&w=600&q=80",
+      image: "cosmetique-cacao.jpg",
       details: "Produits 100% naturels, sans parabènes ni sulfates, enrichis aux extraits de cacao."
     }
   ];
@@ -87,7 +87,7 @@ const Activities = () => {
       <section 
         className="pt-24 pb-16 bg-cover bg-center relative"
         style={{
-          backgroundImage: `linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.4)), url('https://images.unsplash.com/photo-1578662996442-48f60103fc96?auto=format&fit=crop&w=1920&q=80')`
+          backgroundImage: `url('feves4k.webp')`
         }}
       >
         <div className="container mx-auto px-4 text-center text-white">

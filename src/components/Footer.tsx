@@ -39,7 +39,6 @@ const Footer = () => {
           <div className="space-y-4">
             <div className="flex items-center space-x-3">
               <div className="w-12 h-12 bg-white rounded-lg flex items-center justify-center">
-                <span className="text-green-800 font-bold text-lg">GC</span>
               </div>
               <div>
                 <h3 className="font-bold text-xl">GCAC COOP-CA</h3>
@@ -107,7 +106,7 @@ const Footer = () => {
 
         <div className="border-t border-green-700 pt-8 mt-8 text-center">
           <p className="text-green-200 text-sm">
-            © 2024 GCAC COOP-CA. Tous droits réservés.
+            © 2025 GCAC COOP-CA. Tous droits réservés.
           </p>
           <p className="text-green-300 text-xs mt-2">
             Cultivons l'avenir ensemble - Durabilité, Équité, Prospérité !

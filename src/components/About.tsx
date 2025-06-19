@@ -38,7 +38,6 @@ const About = () => {
 
   const timeline = [
     { year: '2016', event: 'Création de la coopérative' },
-    { year: '2018', event: 'Première certification bio' },
     { year: '2019', event: 'Lancement de la transformation locale' },
     { year: '2020', event: 'Expansion des activités' },
     { year: '2021', event: 'Reconnaissance nationale' }
