@@ -7,7 +7,7 @@ const Hero = () => {
     <section 
       className="min-h-screen flex items-center justify-center relative overflow-hidden"
       style={{
-        backgroundImage: ` url('cabosse.webp')`,
+        backgroundImage: ` url('cabosset.webp')`,
         backgroundSize: 'cover',
         backgroundPosition: 'center',
         backgroundAttachment: 'fixed'

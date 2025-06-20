@@ -56,7 +56,7 @@ const Activities = () => {
       icon: <Factory className="w-12 h-12" />,
       title: "Agriculture durable",
       description: "Formation et accompagnement en techniques agricoles respectueuses de l'environnement, permaculture et agriculture biologique.",
-      image: "https://images.unsplash.com/photo-1625246333195-78d9c38ad449?auto=format&fit=crop&w=600&q=80",
+      image: "grandplan.jpeg",
       details: "Programmes de formation, consultation agronomique et accompagnement technique."
     },
     {
