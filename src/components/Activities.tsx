@@ -12,7 +12,7 @@ const Activities = () => {
       icon: <Factory className="w-12 h-12" />,
       title: "Transformation locale",
       description: "Transformation artisanale de nos produits agricoles",
-      image: "transformateur-local.jpeg"
+      image: "Transformateur-local.jpeg"
     },
     {
       icon: <ShoppingCart className="w-12 h-12" />,

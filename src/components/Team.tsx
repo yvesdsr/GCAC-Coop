@@ -29,8 +29,8 @@ const Team = () => {
       name: "Trésorier/ Mr Kofii Kan Mathurin",
       role: "Finances",
       phone: "0757978903",
-      email: "commercial@gcac-coop.ci",
-      image: "grandplan.jpeg"
+      email: "coopcagcac.ci@gmail.com",
+      image: ""
     }
   ];
 

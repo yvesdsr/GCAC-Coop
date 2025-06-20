@@ -39,7 +39,7 @@ const Team = () => {
       department: "Finances",
       phone: "0757978903",
       email: "transformation@gcac-coop.ci",
-      image: "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?auto=format&fit=crop&w=300&q=80",
+      image: "",
       bio: " Garant de la transparence financière, il supervise la gestion des ressources de GCAC COOP-CA avec rigueur, assurant la stabilité économique et le respect des obligations comptables."
     },
    
