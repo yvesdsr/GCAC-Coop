@@ -25,6 +25,13 @@ const Team = () => {
       email: "judicaelblede@gmail.com",
       image: "SG.jpg"
     },
+      {
+      name: "Mr ZONGO Christophe",
+      role: "Administrateur de groupe",
+      phone: "0758500959",
+      email: "zongo445@yahoo.fr",
+      image: "Adg.jpg",
+    },
     {
       name: "Trésorier/ Mr Kofii Kan Mathurin",
       role: "Finances",

@@ -33,6 +33,15 @@ const Team = () => {
       image: "SG.jpg",
       bio: "Pilier administratif de la coopérative, il veille à la bonne coordination des instances, à la conformité des décisions et à la fluidité de la communication interne et externe de GCAC COOP-CA"
     },
+     {
+      name: "Mr ZONGO Christophe",
+      role: "Administrateur de groupe",
+      department: "Comite de gestion",
+      phone: "0758500959",
+      email: "zongo445@yahoo.fr",
+      image: "Adg.jpg",
+      bio: "Coordonne les actions de la coopérative et veille au bon fonctionnement de l'organisation"
+    },
     {
       name: "Mr Koffi Kan Mathurin",
       role: "Trésorier",
