@@ -32,12 +32,19 @@ const Team = () => {
       email: "zongo445@yahoo.fr",
       image: "Adg.jpg",
     },
-    {
+      {
       name: "Trésorier/ Mr Kofii Kan Mathurin",
       role: "Finances",
       phone: "0757978903",
       email: "coopcagcac.ci@gmail.com",
       image: ""
+    },
+    {
+      name: "Mr SNOWDEN Yves",
+      role: "Chargé de Communication & Développeur Web",
+      phone: "0713621898",
+      email: "snowdenyves@gmail.com",
+      image: "snowden.png"
     }
   ];
 
