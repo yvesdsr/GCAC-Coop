@@ -40,7 +40,7 @@ const Team = () => {
       image: ""
     },
     {
-      name: "Mr SNOWDEN Yves",
+      name: "Mr YVES DESIRE GOABI",
       role: "Chargé de Communication & Développeur Web",
       phone: "0713621898",
       email: "snowdenyves@gmail.com",
